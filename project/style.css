@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f4c531;
+}
+.container1{
+    background-color: #fff;
+    width: 600px;
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: #f4c531;
+
+}
+input{
+    border: none;
+    border-bottom: 2px solid #202030;
+}
+.Mein_NAme{
+    background-color: #f4c531;
+    
+}
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+
+
+
+.slide-in {
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
